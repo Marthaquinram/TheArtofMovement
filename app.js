@@ -1,15 +1,14 @@
 'use strict'
 
-// function yourName(){
-//     let name;
-//     do{
-//         name = prompt('What is my name?');
-//         console.log('try again');
-//     }
-//     while (name !== 'martha')
-
-//     return name;
-// }
+function yourName(){
+let name;
+do{
+    name = prompt('What is my name?');
+    console.log('try again');
+}
+while (name !== 'martha')
+return name;
+}
 
 
 
@@ -53,21 +52,20 @@ return message;
 }
 
 function displayRating(){
-    let output = '';
-    let rating = prompt('sale of 1-5, how many stars?');
+let output = '';
+let rating = prompt('scale of 1-5, how many stars?');
     for(let i = 0; i < rating; i++){
-        document.write('<img src="https://image.freepik.com/free-vector/golden-star-3d_1053-79.jpg?w=1380"/>');
+        output = output + "<img class='star' src='star.webp'/>";
 
     }
     // how to resize photo?
-    // return document.write(output);
+    return document.write(output);
+    
 }
 
-function tellmeastory(){
+// function tellmeastory(){
 
-    return 'Waacking is my favorite style of dance!';
-}
+//     return 'Waacking is my favorite style of dance!';
+// }
 
 guessANumber();
-
-

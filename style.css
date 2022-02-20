@@ -20,7 +20,7 @@ header{
 }
 
 h1{
-    float:left;
+    float: left;
     margin-left: 20px;
     margin-right: 50px;
     color: black;
@@ -42,7 +42,7 @@ nav li a {
 }
 
 nav li a:hover{
-    color: white;
+    color: white);
     text-decoration:underline;
     font-size: 22px;
 
